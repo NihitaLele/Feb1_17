@@ -8,7 +8,7 @@ let arr = [
   
   
   //Map
-  function PrintStudentbyMap() {
+  function PrintStudentswithMap() {
       const stdName = [];
       for (let i = 0; i < arr.length; i++) {
         if (arr[i].marks > 50) {
@@ -17,11 +17,11 @@ let arr = [
       }
       console.log("Students with marks over 50:", stdName);
     }
-  PrintStudentbyMap();
+  PrintStudentswithMap();
   
   
   //forEach
-  function PrintStudentbyForEach() {
+  function PrintStudentsbyForEach() {
     console.log("Students with marks over 50:");
     arr.forEach(student => {
       if (student.marks > 50) {
@@ -29,7 +29,7 @@ let arr = [
       }
     });
   }
-  PrintStudentbyForEach();
+  PrintStudentsbyForEach();
   
   
   //addData
@@ -61,7 +61,7 @@ let arr = [
   
   
   //concatenated array
-  function ConcatenateArray() {
+  function concatenateArray() {
     const newArray = [
       { id: 4, name: "ravi", age: "19", marks: 70 },
       { id: 5, name: "suresh", age: "21", marks: 55 },
@@ -70,7 +70,7 @@ let arr = [
     arr = arr.concat(newArray);
     console.log("Conacatenated arrays:", newArray);
   }
-  ConcatenateArray();
+  concatenateArray();
   console.log("After concatenating arrays:");
   console.log(arr);
   
